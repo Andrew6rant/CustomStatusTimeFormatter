@@ -6,24 +6,20 @@
 	<array>
 		<dict>
 			<key>cell</key>
-			<string>PSGroupCell</string>
-			<key>label</key>
-			<string>StatusTimeFormatter First Page</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSSwitchCell</string>
-			<key>default</key>
-			<true/>
+			<string>PSEditTextCell</string>
+			<key>placeholder</key>
+			<string>hh.mm</string>
+			<key>bestGuess</key>
+			<string>hh.mm</string>
 			<key>defaults</key>
 			<string>io.github.andrew6rant.statustimeformatter</string>
 			<key>key</key>
-			<string>AwesomeSwitch1</string>
+			<string>format</string>
 			<key>label</key>
-			<string>Awesome Switch 1</string>
+			<string>Time Formatting:</string>
 		</dict>
 	</array>
 	<key>title</key>
-	<string>StatusTimeFormatter</string>
+	<string>CustomStatusTimeFormatter</string>
 </dict>
 </plist>
