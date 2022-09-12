@@ -1,8 +1,9 @@
 import Orion
 import StatusTimeFormatterC
 
+let prefs = Preferences()
+
 class StatusBarTimeHook: ClassHook<_UIStatusBarStringView> {
-    private let prefs = Preferences()
     func setText(_ text: String) {
         if text.contains(":") {
             prefs.load()
